@@ -1,6 +1,6 @@
 .pricing-container {
   width: 100%;
-  background-color: var(--teal-smooth);
+  background-color: midnightblue;
 }
 
 .top-header {
@@ -10,6 +10,9 @@
   align-items: center;
   background-color: #fcfcfb;
   padding-top: 10rem; 
+  h4{
+    color: black;
+  }
 }
 
 h4 {
@@ -57,6 +60,9 @@ p {
   flex-direction: column;
   align-items: center;
   margin: 5rem 0;
+  h4{
+    color: white;
+  }
 }
 
 .included-plan {
@@ -78,7 +84,7 @@ p {
 }
 
 .included-plan p {
-    color: var(--gray80);
+    color: white;
     margin: 0;
 }
 
