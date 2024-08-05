@@ -137,12 +137,12 @@ h3-special {
 }
 
 .btn.btn-primary:hover {
-  background-color: var(--purple-smooth);
+  background-color: midnightblue;
   color: black;
 }
 
 .btn.btn-secondary:hover {
-  background-color: var(--purple-smooth);
+  background-color: midnightblue;
   color: black;
 }
 #settings-dropdown {
@@ -189,7 +189,7 @@ h3-special {
 
 #easy {
   background-color: var(--green-smooth);
-  border-color: var(--green-base);
+  border-color: midnightblue;
   color: #808010;
 }
 #difficult {
@@ -198,7 +198,7 @@ h3-special {
   color: #00f;
 }
 #advanced {
-  background-color: var(--red-base);
+  background-color:midnightblue;
   border-color: #f00;
   color: #8b0000;
 }
@@ -272,7 +272,7 @@ h4 {
 
 .teacher-profile {
   border-radius: 100%;
-  color: var(--purple-base);
+  color: midnightblue;
   background-color: var(--gray20);
   width: 3rem;
   height: 3rem;
@@ -654,7 +654,7 @@ li {
 }
 
 .box-shadow-3:hover {
-  background-color: var(--purple-smooth);
+  background-color: midnightblue;
 }
 
 button {
@@ -664,7 +664,7 @@ button {
 .btn-ok {
   background: #ffffff;
   opacity: 0.48;
-  border: 1px solid var(--purple-base);
+  border: 1px solid midnightblue;
   box-shadow: 0px 8px 16px rgba(120, 98, 188, 0.2);
   border-radius: 7px;
   height: 2.5rem;
@@ -672,7 +672,7 @@ button {
 }
 
 .btn:hover {
-  background: var(--purple-smooth);
+  background: midnightblue;
 }
 
 .btn-cancel {

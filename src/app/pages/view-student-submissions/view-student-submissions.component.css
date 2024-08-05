@@ -37,12 +37,12 @@ button {
 
 #back-button {
   width: 5rem;
-  background-color: var(--purple-base);
+  background-color: midnightblue;
 }
 
 #download-button {
   width: 9rem;
-  background-color: var(--red-base);
+  background-color:midnightblue;
 }
 
 img {

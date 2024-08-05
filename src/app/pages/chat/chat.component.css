@@ -32,7 +32,7 @@
   color: white;
   font-weight: 600;
   border-radius: 20px 0 0 0;
-  background-color: var(--purple-base);
+  background-color: midnightblue;
 }
 
 .chat-header clr-icon {
@@ -59,12 +59,12 @@
 }
 
 .left {
-  background-color: var(--red-base);
+  background-color:midnightblue;
   border-bottom-left-radius: 0 !important;
 }
 
 .right {
-  background-color: var(--purple-base);
+  background-color: midnightblue;
   border-bottom-right-radius: 0 !important;
 }
 
@@ -83,7 +83,7 @@
   border: 0;
   outline: none;
   font-size: 1rem;
-  background-color: var(--purple-smooth);
+  background-color: midnightblue;
   border-radius: 0 0 20px 0;
 }
 
@@ -138,7 +138,7 @@
 .chat-icon-circle {
   width: 10rem;
   height: 10rem;
-  border: 2px solid var(--purple-smooth);
+  border: 2px solid midnightblue;
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -150,7 +150,7 @@
 .chat-icon-circle clr-icon {
   height: 8rem;
   width: 8rem;
-  color: var(--purple-base);
+  color: midnightblue;
 }
 
 .chat {
@@ -163,12 +163,12 @@
 }
 
 .chat:hover {
-  background-color: var(--purple-smooth);
+  background-color: midnightblue;
   cursor: pointer;
 }
 
 .selected {
-  background-color: var(--purple-smooth);
+  background-color: midnightblue;
 }
 
 .chat > h5 {
@@ -183,7 +183,7 @@
 
 .profile-icon {
   border-radius: 100%;
-  color: var(--purple-base);
+  color: midnightblue;
   background-color: var(--gray20);
   width: 3rem;
   height: 3rem;
@@ -228,7 +228,7 @@
 .btn-ok {
   background: #ffffff;
   opacity: 0.48;
-  border: 1px solid var(--purple-base);
+  border: 1px solid midnightblue;
   box-shadow: 0px 8px 16px rgba(120, 98, 188, 0.2);
   border-radius: 7px;
   height: 2.5rem;
@@ -236,7 +236,7 @@
 }
 
 .btn:hover {
-  background: var(--purple-smooth);
+  background: midnightblue;
 }
 
 .btn-cancel {

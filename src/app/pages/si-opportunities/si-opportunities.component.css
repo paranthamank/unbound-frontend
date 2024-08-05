@@ -44,20 +44,20 @@ h5 {
 
 #back-button {
   width: 5rem;
-  background-color: var(--purple-base);
+  background-color: midnightblue;
 }
 
 #submit-button {
   width: 7rem;
-  background-color: var(--red-base);
+  background-color:midnightblue;
 }
 
 #volunteer-button {
-  background: var(--green-base);
+  background: midnightblue;
 }
 
 #employment-button {
-  background: var(--red-base);
+  background:midnightblue;
 }
 
 .top {

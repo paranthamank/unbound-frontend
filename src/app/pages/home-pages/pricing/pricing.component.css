@@ -75,7 +75,7 @@ p {
 }
 
 .included-plan clr-icon {
-    color: var(--green-base);
+    color: midnightblue;
     display: flex;
     align-items: center;
     justify-content: center;
