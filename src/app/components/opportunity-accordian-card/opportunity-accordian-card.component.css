@@ -9,11 +9,11 @@
 }
 
 .container-open-employment {
-  border: 2px solid var(--red-base);
+  border: 2px solidmidnightblue;
 }
 
 .container-open-volunteer {
-  border: 2px solid var(--green-base);
+  border: 2px solid midnightblue;
 }
 
 .applied {
@@ -155,7 +155,7 @@ clr-dropdown, clr-dropdown * {
 
 .user-profile-icon {
   background-color: var(--gray20);
-  color: var(--purple-base);
+  color: midnightblue;
   height: 2rem;
   width: 2rem;
   border-radius: 100%;
@@ -168,7 +168,7 @@ clr-dropdown, clr-dropdown * {
 .user-profile-icon clr-icon {
   height: 1.25rem;
   width: 1.25rem;
-  color: var(--purple-base);
+  color: midnightblue;
 }
 
 .applicant p {

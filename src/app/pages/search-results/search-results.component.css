@@ -25,7 +25,7 @@
 }
 
 .course-card:hover {
-  background-color: var(--purple-smooth) !important;
+  background-color: midnightblue !important;
 }
 
 img{
@@ -47,7 +47,7 @@ img{
 
 .user-profile {
   border-radius: 100%;
-  color: var(--purple-base);
+  color: midnightblue;
   background-color: var(--gray20);
   width: 3rem;
   height: 3rem;
@@ -94,7 +94,7 @@ img{
   width: 100%;
   height: 40%;
   background-color: var(--gray20);
-  border: 2px solid var(--purple-base);
+  border: 2px solid midnightblue;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -113,7 +113,7 @@ img{
 }
 
 .course-header {
-  border-bottom: 2px solid var(--purple-base);
+  border-bottom: 2px solid midnightblue;
 }
 
 .course-body {

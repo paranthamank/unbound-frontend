@@ -209,7 +209,7 @@ label {
 .profile-picture clr-icon {
   width: 4rem;
   height: 4rem;
-  color: var(--purple-base);
+  color: midnightblue;
 }
 
 .names {
@@ -265,7 +265,7 @@ label {
   border: 0;
   font-size: 1rem;
   color: #ffffff;
-  background-color: var(--purple-base);
+  background-color: midnightblue;
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -385,7 +385,7 @@ strong {
 .btn-ok {
   background: #ffffff;
   opacity: 0.48;
-  border: 1px solid var(--purple-base);
+  border: 1px solid midnightblue;
   box-shadow: 0px 8px 16px rgba(120, 98, 188, 0.2);
   border-radius: 7px;
   height: 2.5rem;
@@ -393,7 +393,7 @@ strong {
 }
 
 .btn:hover {
-  background: var(--purple-smooth);
+  background: midnightblue;
 }
 
 .btn-cancel {

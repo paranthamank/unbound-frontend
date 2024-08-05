@@ -33,12 +33,12 @@ h6 {
 
 #back-button {
   width: 5rem;
-  background-color: var(--purple-base);
+  background-color: midnightblue;
 }
 
 #submit-button {
   width: 7rem;
-  background-color: var(--red-base);
+  background-color:midnightblue;
 }
 
 .add-overlay {
@@ -113,7 +113,7 @@ h6 {
 
 #easy {
   background-color: var(--green-smooth);
-  border-color: var(--green-base);
+  border-color: midnightblue;
   color: #808010;
 }
 #difficult {
@@ -122,7 +122,7 @@ h6 {
   color: #00f;
 }
 #advanced {
-  background-color: var(--red-base);
+  background-color:midnightblue;
   border-color: #f00;
   color: #8b0000;
 }
