@@ -36,7 +36,7 @@ const routes: Routes = [
   },
   { path: '', redirectTo: 'about', pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
-  { path: 'solutions', component: SolutionsComponent },
+  { path: 'courses', component: SolutionsComponent },
   { path: 'pricing', component: PricingComponent },
   { path: 'settings', component: SettingsComponent, canActivate: [AuthGuard] },
   {

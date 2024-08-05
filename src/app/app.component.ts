@@ -48,7 +48,7 @@ export class AppComponent {
 
   isHomePages(): Boolean {
     return this.router.url === '/about' ||
-    this.router.url === '/solutions' ||
+    this.router.url === '/courses' ||
     this.router.url === '/pricing';
   }
 }
