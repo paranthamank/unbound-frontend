@@ -61,7 +61,7 @@ export class IcIlProfileComponent implements OnInit {
           (this.profileImage =
             res === '' || res === null
               ? ''
-              : `https://uimpactify.herokuapp.com/api/user/documents/${res}`),
+              : `/user/documents/${res}`),
           this.initProfile()
         )
       );
