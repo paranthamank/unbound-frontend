@@ -136,6 +136,7 @@ export class ChatComponent implements OnInit {
   }
 
   onSendMessage(selectedChat: Chat, body: string) {
+    console.log("Inside onSendMessage ")
     if (!body.trim().length) return;
     const message = {
       from: this.user._id,
@@ -196,6 +197,7 @@ export class ChatComponent implements OnInit {
   }
 
   onMessageReceived(chatId: string, message: any): void {
+    console.log("new message recieved"+ message)
     if (this.user.chats.includes(chatId)) {
       this.chats
         .filter((chat) => chat._id === chatId)[0]

@@ -1,8 +1,8 @@
 import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { ChatService } from 'src/app/services/chat.service';
 import { UserService } from 'src/app/services/user.service';
 import { filter } from 'rxjs/operators';
-//import { ChatService } from 'src/app/services/chat.service';
 
 @Component({
   selector: 'app-global-search',
@@ -13,7 +13,7 @@ export class GlobalSearchComponent implements OnInit, AfterViewInit {
   constructor(
     private userService: UserService,
     private router: Router,
-    //private chatService: ChatService
+    private chatService: ChatService
   ) {
     router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
@@ -59,8 +59,8 @@ export class GlobalSearchComponent implements OnInit, AfterViewInit {
   isChat: boolean = false;
 
   ngOnInit(): void {
-    //this.chatService.init(this.userService.getCurrentUser()._id);
-    //this.socket = this.chatService.getSocket();
+    this.chatService.init(this.userService.getCurrentUser()._id);
+    this.socket = this.chatService.getSocket();
     this.socket.on('message', (chatId, message) => {
       if(this.router.url !== '/chat') {
         this.newMessage = true;

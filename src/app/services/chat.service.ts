@@ -13,7 +13,7 @@ export class ChatService {
 
   constructor(private http: HttpClient) {
     this.socket = io('http://localhost:4200', {
-      autoConnect: false,
+      autoConnect: true,
     });
   }
 
@@ -25,7 +25,6 @@ export class ChatService {
     this.socket.open();
     this.socket.emit('serverconn', id);
   }
-
   /**
    * Manually closes socket connection
    */
@@ -46,7 +45,10 @@ export class ChatService {
    * @param chatId  id of the chat
    */
   sendMessage(message: any, chatId: string): void {
+    console.log("Inside sendMessage")
     this.socket.emit('message', chatId, message);
+    console.log("Message emittec"+message)
+
   }
 
   postNewChat(from: string, to: string): Observable<Chat> {
