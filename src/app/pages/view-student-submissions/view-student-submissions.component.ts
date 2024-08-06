@@ -53,7 +53,7 @@ export class ViewStudentSubmissionsComponent implements OnInit {
     }
     
     this.viewSubmission =
-    'https://uimpactify.herokuapp.com/api/course/documents/' + this.route.snapshot.paramMap.get('submissionId');
+    'http://localhost:4200/api/course/documents/' + this.route.snapshot.paramMap.get('submissionId');
 
   }
 
