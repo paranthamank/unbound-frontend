@@ -38,6 +38,12 @@ import { CourseLecturesComponent } from './pages/course-lectures/course-lectures
 import { SurveyResponsesComponent } from './pages/survey-responses/survey-responses.component';
 import { ViewStudentSubmissionsComponent } from './pages/view-student-submissions/view-student-submissions.component';
 import { StudentAnalyticsComponent } from './pages/student-analytics/student-analytics.component';
+import { 
+	IgxCalendarModule,
+	IgxDialogModule
+ } from "igniteui-angular";
+import { MiniCalendarComponent } from './components/dashboard-components/mini-calendar/mini-calendar.component';
+
 
 @NgModule({
   declarations: [
@@ -72,6 +78,7 @@ import { StudentAnalyticsComponent } from './pages/student-analytics/student-ana
     SurveyResponsesComponent,
     ViewStudentSubmissionsComponent,
     StudentAnalyticsComponent,
+    MiniCalendarComponent
   ],
   imports: [
     BrowserModule,
@@ -82,8 +89,11 @@ import { StudentAnalyticsComponent } from './pages/student-analytics/student-ana
     HttpClientModule,
     PdfViewerModule,
     NgxFileDropModule,
+    IgxCalendarModule,
+    IgxDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+}

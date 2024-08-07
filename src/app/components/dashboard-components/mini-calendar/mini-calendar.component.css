@@ -1,0 +1,18 @@
+/* Assume 'gray' at variant 300 translates to a specific color, e.g., #d3d3d3 */
+:root {
+    --border-color: #d3d3d3; /* Replace with actual color value */
+}
+
+/* SCSS to CSS */
+.calendar-wrapper {
+    max-width: 500px;
+    min-width: 200px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    margin: 8px;
+}
+
+.igx-calendar {
+    --ig-size: 2; /* Custom property, likely used in other parts of the code */
+    border-radius: 4px;
+}
